@@ -24,7 +24,7 @@ if (isset($_SESSION['usuario'])) {}
 
 <?php include '../../assets/layouts/header2.php'; ?>
 
-<br><h2 style="color: white;"><center><strong>¡Bienvenido!</strong></center></h2><br>
+<br><h2 style="color: white;"><center><strong>¡Bienvenido <?php echo $_SESSION['usuario']; ?>!</strong></center></h2><br>
 
 <div class="container" style="background-color: white;">
 	<h4><br>
