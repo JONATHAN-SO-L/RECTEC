@@ -46,7 +46,7 @@ if(isset($_POST['enviar'])){
 
 	$destinatario="computoyserviciosjomotec@gmail.com";
 	$asunto=utf8_decode("Q&S de RECTEC | JOMOTEC");
-	$cuerpo= utf8_decode("Te ha contactado:  ".$name."\n\nDe la sede:  ".$site."\n\nEstos son los detalles del informe: \n\n".$details);
+	$cuerpo= utf8_decode("Te ha contactado:  ".$name."\n\nDe la sede:  ".$site."\n\nEstos son los detalles: \n\n".$details);
 
 	mail($destinatario, $asunto, $cuerpo);
 
