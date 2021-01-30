@@ -1,9 +1,9 @@
 <?php
 
 $host='localhost';
-$name='root';
-$pwd='';
-$dbname='rectec';
+$name='id15300461_root';
+$pwd='Jkl9f22289001;';
+$dbname='id15300461_rectec';
 
 $cn = new mysqli ($host, $name, $pwd, $dbname);
 
